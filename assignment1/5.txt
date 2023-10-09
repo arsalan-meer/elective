@@ -1,0 +1,9 @@
+num_list = [23, 56, 12, 67, 36, 89, 34, 50]
+count = 0  # Initialize count outside the loop
+
+for index, num in enumerate(num_list):
+    if num == 36:
+        print("Number found at position:", index)
+        count += 1  # Increment count if 36 is found
+
+print("Total count of number 36:", count)

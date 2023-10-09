@@ -1,0 +1,5 @@
+num_list = [23, 56, 12, 67, 89, 34, 50]
+
+for num in num_list:
+    if num > 45:
+        print(num)
